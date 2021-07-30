@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns10110000101" textdirection="ltr" textengine="Uniscribe" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns00000000101" textdirection="ltr" textengine="Uniscribe" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns10110000101" font="Open Sans" controllayout="npnxnanbsnfns10110000101" colorscheme="npnxabnsnfns10110000101" string_table="npnxabnsnfns10110000101" />
-    <layout name="pxabnsnfns10110000101" font="Open Sans" controllayout="pxabnsnfns10110000101" colorscheme="npnxabnsnfns10110000101" string_table="npnxabnsnfns10110000101" />
-    <layout name="npxnabnsnfns10110000101" font="Open Sans" controllayout="npxnabnsnfns10110000101" colorscheme="npnxabnsnfns10110000101" string_table="npnxabnsnfns10110000101" />
-    <layout name="npnxnanbnsnfns10110000101" font="Open Sans" controllayout="npnxnanbnsnfns10110000101" colorscheme="npnxabnsnfns10110000101" string_table="npnxabnsnfns10110000101" />
-    <layout name="pxabnsnfns10110000100" font="Open Sans" controllayout="pxabnsnfns10110000100" colorscheme="npnxabnsnfns10110000101" string_table="npnxabnsnfns10110000101" />
-    <layout name="npnxabnsnfns10110000101" font="Open Sans" controllayout="npnxabnsnfns10110000101" colorscheme="npnxabnsnfns10110000101" string_table="npnxabnsnfns10110000101" />
+    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxabnsnfns00000000101" string_table="npnxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="npnxabnsnfns00000000101" string_table="npnxabnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="npnxabnsnfns00000000101" string_table="npnxabnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxabnsnfns00000000101" string_table="npnxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="npnxabnsnfns00000000101" string_table="npnxabnsnfns00000000101" />
+    <layout name="npnxabnsnfns00000000101" font="Open Sans" controllayout="npnxabnsnfns00000000101" colorscheme="npnxabnsnfns00000000101" string_table="npnxabnsnfns00000000101" />
+    <layout name="npnxabsnfns00000000101" font="Open Sans" controllayout="npnxabsnfns00000000101" colorscheme="npnxabnsnfns00000000101" string_table="npnxabnsnfns00000000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,7 +15,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="TEST PART 5 DE SO 6.1" />
+              <option name="title_text" value="TEST DE NGHE 01" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -59,14 +60,14 @@
       <optiongroup name="controls">
         <options>
           <option name="volume" value="true" />
-          <option name="seekbar" value="true">
+          <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
-          <option name="pauseplay" value="true" />
-          <option name="replay" value="true" />
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
           <option name="search" value="false" />
           <option name="closed_captions" value="true">
             <options>
@@ -84,11 +85,11 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10110000101">
+    <control_layout name="npnxnanbsnfns00000000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -107,11 +108,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10110000101">
+    <control_layout name="pxabnsnfns00000000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -130,11 +131,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10110000101">
+    <control_layout name="npxnabnsnfns00000000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
@@ -153,11 +154,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10110000101">
+    <control_layout name="npnxnanbnsnfns00000000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -176,11 +177,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10110000100">
+    <control_layout name="pxabnsnfns00000000100">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -199,11 +200,11 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npnxabnsnfns10110000101">
+    <control_layout name="npnxabnsnfns00000000101">
       <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -222,9 +223,32 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
+    <control_layout name="npnxabsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxabnsnfns10110000101">
+    <colorscheme name="npnxabnsnfns00000000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1141,7 +1165,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxabnsnfns10110000101">
+    <string_table name="npnxabnsnfns00000000101">
       <string id="three_image_items">items</string>
       <string id="three_image_viewed">viewed</string>
       <string id="three_image_of">of</string>
@@ -1244,10 +1268,10 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6f0YMWfMPGQ" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6cMxKridXPu" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6f0YMWfMPGQ.6LNzurHldg9" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6f0YMWfMPGQ.6pNeVmSPmFF" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6cMxKridXPu.6MToffO4hKQ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6cMxKridXPu.6c83QT04u9I" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
